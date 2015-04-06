@@ -1,0 +1,2 @@
+# shutdown alias
+alias nanna='shutdown -h now'
