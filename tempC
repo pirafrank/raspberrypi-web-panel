@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# tempF display rpi temp in Celsius
+awk '{printf("%.1f &degC\n",$1/1e3)}' /sys/class/thermal/thermal_zone0/temp

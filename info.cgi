@@ -1,0 +1,28 @@
+#!/bin/bash
+#TERM=tty1
+#export TERM=${TERM:-dumb}
+
+echo "Content-type: text/html"
+echo ""
+echo "<html>"
+echo "<head>"
+echo "<title>RaspberryPi info</title>"
+echo "</head>"
+echo "<body>"
+echo "<h1>General system information for host $(hostname -s)</h1>"
+echo "<center>Information generated on $(date)</center>"
+echo "<h2></h2>"
+echo "<pre> Uptime: $(uptime) </pre>"
+echo "<pre> Temperature: $(tempC), $(tempF)</pre>"
+echo "<h2>Memory Info</h2>"
+echo "<pre> $(free -m) </pre>"
+echo "<h2>Disk Info</h2>"
+echo "<pre> $(df -h) </pre>"
+echo "<h2>Network info</h2>"
+echo "<pre> $(vnstat -i eth0) </pre>"
+echo "<h2>Logged in users</h2>"
+echo "<pre> $(w) </pre>"
+echo "<h2>Processes</h2>"
+echo "<pre> $(ps aux) </pre>"
+echo "</body>"
+echo "</html>"
