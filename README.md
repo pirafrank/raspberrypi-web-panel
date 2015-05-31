@@ -41,6 +41,9 @@ $ exit
 
 Simply visit your raspberry on your local network via IP address (e.g. http://192.168.0.102).
 
+### License
+The software in this repository is released under the GNU GPLv3 License by Francesco Pira (dev[at]fpira[dot]com, fpira.com). You can read the terms of the license [here](http://www.gnu.org/licenses/gpl-3.0.html).
+
 ### Credits
 
 * Standart built-in tools.
