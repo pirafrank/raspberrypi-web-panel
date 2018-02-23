@@ -28,6 +28,8 @@ $ cd raspberrypi-web-panel
 $ sudo su
 # cp info.cgi /usr/local/cgi-bin/
 # chmod 755 /usr/local/cgi-bin/info.cgi
+# cp ipinfo.cgi /usr/local/cgi-bin/
+# chmod 755 /usr/local/cgi-bin/ipinfo.cgi
 # cp tempC.sh /usr/local/bin/
 # chmod +x /usr/local/bin/tempC
 # cp tempF.sh /usr/local/bin/
